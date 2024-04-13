@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+}
+
+ nav{
+    float: right;
+ }
+
+ nav a{
+    font-size: large;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(248, 246, 246);
+ }
+ nav a:hover{
+    color: blue;
+    padding: 20px;
+    transition: 0.3s;
+ }
+h2{
+    background: url(logo2.jpg);
+    color: #fff;
+    margin: 1%;
+    padding: 1px;
+    height: 10%;
+    width: 98.7%;
+}
+p , h3,h1{
+   margin:1px ;
+   padding: 0px 20px;
+   color:black;
+}
+
+
+/* p{
+   width:50%
+} */
+
+.welcome{
+   padding: 100px;
+   font-size: 50px; 
+   background-color: rgba(32, 178, 170, 0.4);
+   display: inline-block;
+}
+.linkbox {
+   float:right;
+   padding: 5% 20%; 
+   background-color:blue;
+   }
+
+.video{
+      float:right;
+      bottom: 3%;
+  }
+
+   footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
